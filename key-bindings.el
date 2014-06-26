@@ -1,5 +1,9 @@
+;;Odio el yank con la rueda del mouse
+(global-unset-key [mouse-2])
+
 ;;ñ
 (global-set-key (kbd "C-x 9")(kbd "C-x 8 ~ n"))
+
 ;; helm
 (global-set-key (kbd "C-c o") 'helm-overlord)
 (global-set-key (kbd "M-x") 'helm-M-x)
