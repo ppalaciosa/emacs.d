@@ -1,4 +1,3 @@
-(require 'setup-pgp)
 ;; Do not use gpg agent when runing in terminal
 (defadvice epg--start (around advice-epg-disable-agent activate)
   (let ((agent (getenv "GPG_AGENT_INFO")))
