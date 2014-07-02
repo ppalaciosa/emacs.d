@@ -88,6 +88,9 @@
      web-mode
      restclient ;;Para enviar peticiones http rest
      impatient-mode ;;Visualizacion de html en tiempo real
+     php-mode ;; Puede ser util
+     rainbow-mode
+
 
      ;; lalala
      xkcd

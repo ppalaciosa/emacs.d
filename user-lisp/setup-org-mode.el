@@ -9,9 +9,6 @@
 ;; Fontify org-mode code blocks
 (setq org-src-fontify-natively t)
 
-;;Don't break words when wraping
-(visual-line-mode t)
-
 ;; org-mode: Don't ruin S-arrow to switch windows please (use M-+ and M-- instead to toggle)
 (setq org-replace-disputed-keys t)
 
@@ -37,6 +34,8 @@
                       (define-key yas/keymap [tab] 'yas/next-field)
                       (setq truncate-partial-width-windows nil)
                       (setq truncate-lines nil)
+                      ;;Don't break words when wraping
+                      (visual-line-mode t)             
                       ))
 
 (setq org-src-preserve-indentation t)
@@ -44,5 +43,18 @@
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)))
+
+;;Org Contacts
+(require 'org-contacts)
+
+(setq org-contacts-files '("~/Org/contacts.gpg"))
+
+(setq org-capture-templates
+             '(("c" "Contacts" entry (file (first org-contacts-files))
+               "* %(org-contacts-template-name)
+    :PROPERTIES:
+    :NICKNAME: %^{Nickname}
+    :PHONE: %^{Phone}    
+    :END:")))
 
 (provide 'setup-org-mode)

@@ -1,4 +1,5 @@
 (require 'web-mode)
+(require 'rainbow-mode)
 
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
@@ -11,4 +12,10 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
 
+(defun my-web-mode-hook () 
+  "Hooks for Web mode."
+  (rainbow-mode t) ;; That's pretty
+)
+
+(add-hook 'web-mode-hook 'my-web-mode-hook)
 (provide 'setup-web-mode)

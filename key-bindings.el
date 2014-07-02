@@ -1,14 +1,21 @@
 ;;Odio el yank con la rueda del mouse
 (global-unset-key [mouse-2])
 
+;;Navegacion con lineas logicas (visual-line mode)
+(global-set-key (kbd "C-n") 'next-logical-line)
+(global-set-key (kbd "C-p") 'previous-logical-line)
+(global-set-key (kbd "C-a") 'beginning-of-visual-line)
+(global-set-key (kbd "C-e") 'end-of-visual-line)
+
 ;;ñ
 (global-set-key (kbd "C-x 9")(kbd "C-x 8 ~ n"))
 
 ;; helm
 (global-set-key (kbd "C-c o") 'helm-overlord)
 (global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "<menu>") 'helm-M-x)
 ;;(global-set-key (kbd "C-<SPC>") 'helm-M-x)
-(global-set-key (kbd "C-§") 'helm-yas-complete)
+;;(global-set-key (kbd "C-§") 'helm-yas-complete)
 
 ;; Org
 (global-set-key "\C-cl" 'org-store-link)
@@ -41,8 +48,8 @@
 
 (define-key sp-keymap (kbd "C-M-d") 'sp-down-sexp)
 (define-key sp-keymap (kbd "C-M-a") 'sp-backward-down-sexp)
-;;Unity conflict
-;;(define-key sp-keymap (kbd "C-S-a") 'sp-beginning-of-sexp)
+
+(define-key sp-keymap (kbd "C-S-a") 'sp-beginning-of-sexp)
 (define-key sp-keymap (kbd "C-S-d") 'sp-end-of-sexp)
 
 (define-key sp-keymap (kbd "C-M-e") 'sp-up-sexp)
@@ -61,8 +68,9 @@
 
 (define-key sp-keymap (kbd "C-<right>") 'sp-forward-slurp-sexp)
 (define-key sp-keymap (kbd "C-<left>") 'sp-forward-barf-sexp)
-(define-key sp-keymap (kbd "C-M-<left>") 'sp-backward-slurp-sexp)
-(define-key sp-keymap (kbd "C-M-<right>") 'sp-backward-barf-sexp)
+;;Conflict with unity change desktop
+;;(define-key sp-keymap (kbd "C-M-<left>") 'sp-backward-slurp-sexp)
+;;(define-key sp-keymap (kbd "C-M-<right>") 'sp-backward-barf-sexp)
 
 (define-key sp-keymap (kbd "M-D") 'sp-splice-sexp)
 (define-key sp-keymap (kbd "C-M-<delete>") 'sp-splice-sexp-killing-forward)

@@ -19,10 +19,17 @@
 (dolist (hook '(change-log-mode-hook log-edit-mode-hook))
   (add-hook hook (lambda () (flyspell-mode -1))))
 
-(setq speck-hunspell-library-directory (concat user-emacs-directory "dict"))
-
 (add-hook 'prog-mode-hook 
           (lambda ()
             (flyspell-prog-mode)))
+
+;;(add-hook 'before-change-major-mode-hook 
+;;          '(lambda ()
+;;             (ispell-change-dictionary ispell-dictionary)
+;;             ))
+
+(defun no-flyspell-mode (&optional rest)
+  (flyspell-mode -1)
+  )
 
 (provide 'setup-flyspell)

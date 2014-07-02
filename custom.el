@@ -7,7 +7,7 @@
  '(column-number-mode t)
  '(custom-safe-themes (quote ("c06241fdef16c336d0cc3a96cf5de5725fad678e9313513e586f0a243289ada5" default)))
  '(inhibit-startup-screen t)
- '(org-agenda-files (quote ("~/.emacs.d/agenda/clojure")))
+ '(safe-local-variable-values (quote ((ispell-dictionary . "castellano") (eval ispell-change-dictionary "castellano"))))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -1,9 +1,7 @@
-(message "Begining setup-jabber")
-
 (require 'jabber-autoloads)
 (require 'auth-source)
 
-(message "jabber - connect-all definition")
+
 (defadvice jabber-connect-all (before jabber-read-from-authinfo)
   (let ((auths (auth-source-search :port "xmpp"
                                    :require '(:secret))))
@@ -16,7 +14,7 @@
                                         (:connection-type . ssl)))
                         acc)))
                   auths))))
-(message "jabber - Options")
+
 ;; http://stackoverflow.com/questions/5583413/how-do-i-get-jabber-el-to-not-show-the-user-icons
 (setq
  jabber-show-offline-contacts nil
@@ -59,5 +57,5 @@
                                           (jabber-history-filename jid))))
     (view-mode)))
 
-(message "Ending setup-jabber")
+(message "setup-jabber")
 (provide 'setup-jabber)
