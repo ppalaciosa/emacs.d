@@ -56,6 +56,9 @@
      matlab-mode
      arduino-mode
 
+     ;;python
+     jedi
+
      ;;Orden
      perspective
      multi-term

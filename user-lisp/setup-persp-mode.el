@@ -41,7 +41,12 @@
 (defun custom-persp/emacs ()
   (interactive)
   (custom-persp "emacs"
-                (find-file "~/.emacs.d/init.el")))
+                (find-file "~/.emacs.d/init.el")
+                (find-file "~/.emacs.d/sane-defaults.el")
+                (find-file "~/.emacs.d/key-bindings.el")
+                (find-file "~/.emacs.d/appearance.el")
+                ))
+
 (define-key persp-mode-map (kbd "C-x p e") 'custom-persp/emacs)
 
 ;; (defun custom-persp/irc ()

@@ -42,7 +42,15 @@
 
 (org-babel-do-load-languages
  'org-babel-load-languages
- '((python . t)))
+ '(
+   ;;Requires auctex
+   (latex . t)
+   ;;Requires cider, leningen
+   (clojure . t)
+   (python . t)
+   ;;Requires nodejs
+   (js . t)
+   ))
 
 ;;Org Contacts
 (require 'org-contacts)

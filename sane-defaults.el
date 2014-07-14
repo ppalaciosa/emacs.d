@@ -1,6 +1,10 @@
 ;; Allow pasting selection outside of Emacs
 (setq x-select-enable-clipboard t)
 
+;;No pregunta cuando se editan archivos por medio de un link simbolico
+;;cuando estan bajo control de versiones, pero dicen que puede ser peligroso
+(setq vc-follow-symlinks t)
+
 ;; Auto refresh buffers
 ;;(global-auto-revert-mode 1)
 

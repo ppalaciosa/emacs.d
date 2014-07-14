@@ -16,7 +16,7 @@
 
 (dolist (hook '(text-mode-hook))
   (add-hook hook (lambda () (flyspell-mode 1))))
-(dolist (hook '(change-log-mode-hook log-edit-mode-hook))
+(dolist (hook '(change-log-mode-hook log-edit-mode-hook c-mode-hook))
   (add-hook hook (lambda () (flyspell-mode -1))))
 
 (add-hook 'prog-mode-hook 
