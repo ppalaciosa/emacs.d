@@ -2,10 +2,10 @@
 (global-unset-key [mouse-2])
 
 ;;Navegacion con lineas logicas (visual-line mode)
-(global-set-key (kbd "C-n") 'next-logical-line)
-(global-set-key (kbd "C-p") 'previous-logical-line)
-(global-set-key (kbd "C-a") 'beginning-of-visual-line)
-(global-set-key (kbd "C-e") 'end-of-visual-line)
+;; (global-set-key (kbd "C-n") 'next-logical-line)
+;; (global-set-key (kbd "C-p") 'previous-logical-line)
+;; (global-set-key (kbd "C-a") 'beginning-of-visual-line)
+;; (global-set-key (kbd "C-e") 'end-of-visual-line)
 
 ;;ñ
 (global-set-key (kbd "C-x 9")(kbd "C-x 8 ~ n"))
