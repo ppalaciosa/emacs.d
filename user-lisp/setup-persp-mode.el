@@ -57,10 +57,11 @@
 (defun connect-to-jabber ()
   (jabber-connect-all)
   (jabber-switch-to-roster-buffer))
-
 (defun custom-persp/jabber ()
   (interactive)
-  (custom-persp "@Jabber" (connect-to-jabber)))
+  (custom-persp "@Jabber"
+                (split-window-right)
+                (connect-to-jabber)))
 (define-key persp-mode-map (kbd "C-x p j") 'custom-persp/jabber)
 
 ;; (defun custom-persp/twitter ()
@@ -74,6 +75,21 @@
                 (find-file (first org-agenda-files))))
 (define-key persp-mode-map (kbd "C-x p o") 'custom-persp/org)
 
+(defun custom-persp/matlab ()
+  (interactive)
+  (custom-persp "@matlab"
+                (split-window-right)
+                (matlab-shell)
+                ))
+(define-key persp-mode-map (kbd "C-x p m") 'custom-persp/matlab)
+
+
+
 (persp-mode)
 
 (provide 'setup-persp-mode)
+
+
+
+
+
