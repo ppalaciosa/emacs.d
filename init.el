@@ -38,11 +38,14 @@
 (defun init--install-packages ()
   (packages-install
    '(dired-details
+     diminish  ;; Permite ocultar nombres de la barra de modos
      flx-ido
      ido-ubiquitous
      flycheck
      magit    ;;Trabajar con git
+     gist ;; gist.github.com
      jabber ;; cliente de chat
+     undo-tree
 
      ;;Para programar
      rainbow-delimiters  ;;Parentesis de colores diferentes
@@ -50,6 +53,7 @@
      pretty-mode  ;; :3
      auto-complete
      company
+     expand-region
 
      ;;Some modes
      gnuplot-mode
@@ -58,6 +62,7 @@
 
      ;;python
      jedi
+     ein
 
      ;;Orden
      perspective
@@ -109,7 +114,6 @@
      ;; expand-region
      ;; diff-hl
      ;; powerline
-     ;; diminish
      )))
 
 (condition-case nil
