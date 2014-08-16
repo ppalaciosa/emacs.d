@@ -98,7 +98,7 @@
      impatient-mode ;;Visualizacion de html en tiempo real
      php-mode ;; Puede ser util
      rainbow-mode
-
+     w3m ;;Navegador web
 
      ;; lalala
      xkcd
@@ -111,7 +111,6 @@
      ;; quickrun
      ;; guide-key
      ;; itail
-     ;; expand-region
      ;; diff-hl
      ;; powerline
      )))
