@@ -40,6 +40,8 @@
 ;;(require 'autosmiley)
 ;;(add-hook 'jabber-chat-mode-hook 'autosmiley-mode)
 (add-hook 'jabber-chat-mode-hook 'visual-line-mode)
+;;Resaltar urls
+(add-hook 'jabber-chat-mode-hook 'goto-address)
 
 (defun jabber-visit-history (jid)
   "Visit jabber history with JID in a new buffer.
