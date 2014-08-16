@@ -8,6 +8,10 @@
       ido-use-filename-at-point nil
       ido-max-prospects 10)
 
+(defvar ido-cur-item nil)
+(defvar ido-default-item nil)
+(defvar ido-cur-list nil)
+
 (require 'flx-ido)
 (flx-ido-mode 1)
 
