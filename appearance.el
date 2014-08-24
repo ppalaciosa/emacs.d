@@ -47,5 +47,7 @@
 
 ;;Mostrar numero de linea a la izquierda
 (global-linum-mode 1)
+;;El tamaño de los numeros de linea no varie al cambiar el tamaño
+(set-face-attribute 'linum nil :height 110)
 
 (provide 'appearance)
