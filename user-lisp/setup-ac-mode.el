@@ -1,5 +1,6 @@
 (require 'auto-complete-config)
 (ac-config-default)
+(ac-linum-workaround)
 (ac-flyspell-workaround)
 (ac-set-trigger-key "TAB")
 (provide 'setup-ac-mode)
