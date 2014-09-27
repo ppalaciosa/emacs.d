@@ -42,7 +42,6 @@
      flx-ido
      ido-ubiquitous
      flycheck
-     magit    ;;Trabajar con git
      gist ;; gist.github.com
      jabber ;; cliente de chat
      undo-tree
@@ -55,6 +54,12 @@
      company
      expand-region
 
+     ;;Git
+     magit    ;;Trabajar con git
+     git-commit-mode
+     git-rebase-mode
+     gitignore-mode
+
      ;;Some modes
      gnuplot-mode
      matlab-mode
@@ -62,7 +67,7 @@
 
      ;;python
      jedi
-     ein
+     ;;ein
 
      ;;Orden
      perspective
@@ -99,6 +104,7 @@
      php-mode ;; Puede ser util
      rainbow-mode
      w3m ;;Navegador web
+     nginx-mode
 
      ;; lalala
      xkcd
@@ -136,5 +142,4 @@
 ;; Load user specific configuration
 (when (file-exists-p user-lisp-dir)
   (mapc 'load (directory-files user-lisp-dir nil "^[^#].*el$")))
-
 
