@@ -58,6 +58,7 @@
      magit    ;;Trabajar con git
      git-commit-mode
      git-rebase-mode
+     git-timemachine
      gitignore-mode
 
      ;;Some modes
