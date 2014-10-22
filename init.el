@@ -65,6 +65,7 @@
      gnuplot-mode
      matlab-mode
      arduino-mode
+     yaml-mode
 
      ;;python
      jedi
@@ -82,16 +83,16 @@
      auctex
      ac-math
 
-     helm ;;Helm and stuff 
+     helm ;;Helm and stuff
      helm-themes
      helm-c-yasnippet
      helm-projectile
      helm-spotify ;;Weeee
 
      ;;Clojure
-     ac-nrepl
+     ;;ac-nrepl ;;No longer in repositories
      cider
-     cider-tracing
+     ;;cider-tracing ;;No longer in repositories
      clj-refactor
      clojure-cheatsheet
      clojure-snippets
@@ -111,7 +112,7 @@
      xkcd
 
      ;;dash-at-point
-     
+
      ;;twittering-mode ;;cliente de twitter
      ;; whitespace-cleanup-mode
      ;; browse-kill-ring
@@ -143,4 +144,3 @@
 ;; Load user specific configuration
 (when (file-exists-p user-lisp-dir)
   (mapc 'load (directory-files user-lisp-dir nil "^[^#].*el$")))
-
