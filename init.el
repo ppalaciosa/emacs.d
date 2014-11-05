@@ -107,6 +107,7 @@
      rainbow-mode
      w3m ;;Navegador web
      nginx-mode
+     js2-mode ;; jsx :p
 
      ;; lalala
      xkcd

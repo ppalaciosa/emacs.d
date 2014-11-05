@@ -10,7 +10,9 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . (lambda ()
+                                                  (web-mode)
+                                                  (js2-minor-mode))))
 
 (defun my-web-mode-hook () 
   "Hooks for Web mode."
