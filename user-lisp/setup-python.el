@@ -3,7 +3,10 @@
 ;; de python (virtualnv) en .python-environments y ejecutar
 ;; M-x jedi:install-server
 
-(add-hook 'python-mode-hook 'auto-complete-mode)
-(add-hook 'python-mode-hook 'jedi:ac-setup)
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
+(setq jedi:environment-root
+      (expand-file-name ".python-environments" user-emacs-directory))
 
 (provide 'setup-python)
+
