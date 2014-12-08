@@ -111,6 +111,7 @@
      w3m ;;Navegador web
      nginx-mode
      js2-mode ;; jsx :p
+     json-mode
 
      ;; lalala
      xkcd
