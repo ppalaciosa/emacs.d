@@ -31,6 +31,9 @@
 ;; Make backups of files, even when they're in version control
 (setq vc-make-backup-files t)
 
+;; Tildes y otras teclas muertas
+(require 'iso-transl)
+
 ;; Setup packages
 (require 'setup-package)
 
