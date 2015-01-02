@@ -113,6 +113,8 @@
      nginx-mode
      js2-mode ;; jsx :p
      json-mode
+     sass-mode ;; old sass
+     scss-mode ;; modern sass
 
      ;; lalala
      xkcd
