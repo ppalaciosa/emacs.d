@@ -12,8 +12,8 @@
 ;; (setq LaTeX-command-style '(("" "%(PDF)%(latex) -file-line-error %S%(PDFout)")))
 
 ;; Set Up flyspell-babel and ispell-multi
-    (autoload 'flyspell-babel-setup "flyspell-babel")
-    (add-hook 'latex-mode-hook 'flyspell-babel-setup)
+(autoload 'flyspell-babel-setup "flyspell-babel")
+(add-hook 'latex-mode-hook 'flyspell-babel-setup)
 
 ;; AutoSaving and parsing for some other Tex Packages
 (setq TeX-auto-save t)
@@ -27,10 +27,15 @@
 ;; Enabling Autocomplete by ac-math, uses auto-complete default by emacs
 (add-to-list 'ac-modes 'LaTeX-mode) ; make auto-complete aware of `latex-mode`
 
+;; Para algorithmicx
+;; (add-to-list 'LaTeX-paragraph-commands "State")
+;; (add-to-list 'LaTeX-paragraph-commands "If")
+;; (add-to-list 'LaTeX-paragraph-commands "While")
+
 (defun ac-latex-mode-setup () ; add ac-sources to default ac-sources
   (setq ac-sources
-     (append '(ac-source-math-unicode ac-source-math-latex ac-source-latex-commands)
-               ac-sources)))
+        (append '(ac-source-math-unicode ac-source-math-latex ac-source-latex-commands)
+                ac-sources)))
 
 (add-hook 'LaTeX-mode-hook 'ac-latex-mode-setup)
 (add-hook 'LaTeX-mode-hook (lambda () (set-input-method "latin-1-prefix")))
