@@ -6,6 +6,12 @@
 ;; Highlight current line
 (global-hl-line-mode 1)
 
+;; Hide menu bar
+(menu-bar-mode -1)
+
+;; Hide scroll bar
+(scroll-bar-mode -1)
+
 ;; Set custom theme path
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
 
@@ -30,7 +36,7 @@
   (blink-cursor-mode -1))
 
 ;; epic red
-(set-cursor-color "firebrick")
+;;(set-cursor-color "firebrick")
 (setq initial-scratch-message "")
 
 (require 'uniquify)
