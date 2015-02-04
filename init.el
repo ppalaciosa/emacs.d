@@ -94,6 +94,7 @@
 
      ;;Clojure
      ;;ac-nrepl ;;No longer in repositories
+     ac-cider
      cider
      ;;cider-tracing ;;No longer in repositories
      clj-refactor
