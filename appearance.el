@@ -7,7 +7,7 @@
 (global-hl-line-mode 1)
 
 ;; Hide menu bar
-(menu-bar-mode -1)
+(menu-bar-mode 1)
 
 ;; Hide scroll bar
 (scroll-bar-mode -1)
