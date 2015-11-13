@@ -1,6 +1,9 @@
 ;; No mostrar pantalla de inicio
 (setq inhibit-startup-message t)
 
+;; Modo Visual (word wrap)
+(global-visual-line-mode 1)
+
 ;;Ocultar barra de herramientas
 (tool-bar-mode -1)
 
@@ -12,7 +15,6 @@
       (expand-file-name "user-lisp" user-emacs-directory))
 
 ;; Set up load path
-(add-to-list 'load-path user-emacs-directory)
 (add-to-list 'load-path site-lisp-dir)
 (add-to-list 'load-path user-lisp-dir)
 
@@ -21,7 +23,7 @@
 (load custom-file)
 
 ;; Set up appearance early
-(require 'appearance)
+(load-file (expand-file-name "appearance.el" user-emacs-directory))
 
 ;; Write backup files to own directory
 (setq backup-directory-alist
@@ -34,8 +36,14 @@
 ;; Tildes y otras teclas muertas
 (require 'iso-transl)
 
+;; Are we on a mac?
+(setq system-is-mac (equal system-type 'darwin))
+
+;; Are we on Gnu/linux?
+(setq system-is-linux (equal system-type 'gnu/linux))(setq system-is-linux (equal system-type 'gnu/linux))
+
 ;; Setup packages
-(require 'setup-package)
+(load-file (expand-file-name "setup-package.el" user-emacs-directory))
 
 ;; Install extensions if they're missing
 (defun init--install-packages ()
@@ -48,6 +56,7 @@
      gist ;; gist.github.com
      jabber ;; cliente de chat
      undo-tree
+     websocket
 
      ;;Para programar
      rainbow-delimiters  ;;Parentesis de colores diferentes
@@ -59,8 +68,6 @@
 
      ;;Git
      magit    ;;Trabajar con git
-     git-commit-mode
-     git-rebase-mode
      git-timemachine
      gitignore-mode
 
@@ -138,10 +145,7 @@
    (init--install-packages)))
 
 ;; Lets start with a smattering of sanity
-(require 'sane-defaults)
-
-;; Setup Key bindings
-(require 'key-bindings)
+(load-file (expand-file-name "sane-defaults.el" user-emacs-directory))
 
 ;; Emacs server
 (require 'server)
@@ -152,3 +156,6 @@
 ;; Load user specific configuration
 (when (file-exists-p user-lisp-dir)
   (mapc 'load (directory-files user-lisp-dir nil "^[^#].*el$")))
+
+;; Setup Key bindings after smartparens config
+(load-file (expand-file-name "key-bindings.el" user-emacs-directory))

@@ -1,0 +1,93 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/pablo/.emacs.d/" . "themes/")
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 3/machine-learning-ex2/" . "ex2/")
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 3/" . "machine-learning-ex2/")
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/" . "Semana 3/")
+ ("/media/pablo/data/Coursera/" . "(Coursera) Machine Learning/")
+ ("/media/pablo/data/" . "Coursera/")
+ ("/media/pablo/" . "data/")
+ ("/media/" . "pablo/")
+ ("/" . "media/")
+ ("/home/" . "pablo/")
+ ("/home/pablo/Escritorio/machine-learning-ex3/" . "ex3/")
+ ("/home/pablo/Documentos/" . "897cd608dc0610710185/")
+ ("/home/pablo/Escritorio/machine-learning-ex2/" . "ex2/")
+ ("/home/pablo/Escritorio/" . "machine-learning-ex3/")
+ ("/home/pablo/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/pablo/.emacs.d/themes/"
+ "/home/pablo/.emacs.d/"
+ "/home/pablo/Escritorio/machine-learning-ex3/ex3/"
+ "/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 3/machine-learning-ex2/ex2/"
+ "/home/pablo/Escritorio/machine-learning-ex2/ex2/"
+ "/home/pablo/Documentos/897cd608dc0610710185/"
+ "/home/pablo/Documentos/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "zenburn-theme.el"
+ "appearance.el"
+ "init.el"
+ "custom.el"
+ "ac-comphist.dat"
+ "lrCostFunction.m"
+ "oneVsAll.m"
+ "ex3.m"
+ "plotDecisionBoundary.m"
+ "costFunction.m"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/pablo/.emacs.d/themes/" (22065 48901 264388 329000) "./" "zenburn-theme.el" "../")
+
+ ("/home/pablo/.emacs.d/" (22086 1759 203197 627000) "session.105c83e71b88aa1aff143777335485695400000035100055" "key-bindings.el" "session.1011e74b706ee6dd1f143797967478705000000035100054" ".gitignore" "elpa/" "session.1067ae81f6fd712f68143705163695195700000024570056" "session.10860f4bb7a5bbc39c144376177312242800000026660069" "init.el~" "appearance.el" "session.10b83a5c05da259ea142328595552810900000025140052" "var/" "user-lisp/" "etc/" "init.el" ".python-environments/" "session.1089a25db7a6e0ce4d144633424688579500000017300050" "session.10cb04a043a4d40d4144399253895848500000035530056" "custom.el" "./" "session.10aa8be8ba7c3db33114233350603711200000024810051" "#session.1060b9084463dbbbf5143598383577897700000025290054#" "session.101e72ee38d243112c142558843577705200000025970056" "srecode-map.el" "backups/" "session.10eb20fe7fb1da8d24142656328169475500000026610052" "ido.last" "session.10678196a0138226ad142311632285558900000022080053" "sane-defaults.el" "projectile-bookmarks.eld" "session.101e72ee38d243112c142558854914929800000025970057" "setup-package.el" "session.1060b9084463dbbbf5143598383577897700000025290054" "auto-save-list/" "session.10e4a36f7daf0ebf69143590575558598900000025370054" "recentf" "session.10e1277f494df62437142299133865997100000022660050" "themes/" "history" "session.103c6b82268caa295f14386013393881200000033570055" "site-lisp/" "ac-comphist.dat" "session.104ad5c9f46b73f60143831551452229800000023740056" ".git/" "session.10b7d0858a9853d570143717822876471100000034070059" "session.10bc30d2d895413424143462015056231300000023360054" "../")
+
+ ("/home/pablo/" (22085 63839 743197 1000) ".cairo-clockrc" ".gradle/" ".macromedia/" ".steampid" ".kde/" ".local/" ".gnome2/" ".config/" ".emacs.d/" ".profile" ".java/" "Público/" ".thumbnails/" "Android/" ".hunspell_es_ES" ".dropbox-dist/" ".pulse-cookie" "Audio/" ".Xauthority" "Música/" ".cache/" ".adobe/" ".gnome2_private/" ".pki/" "Clase Android 27-02-15/" ".bash_logout" ".gnome/" "reactProjects/" ".octave_hist" "Imágenes/" "Escritorio/" "./" ".node_repl_history" ".gitconfig" ".mozilla/" "octave-workspace" ".ICEauthority" "NativeScript/" ".fltk/" ".bash_history" ".nvm/" ".dmrc" ".qalculate/" ".dbus/" ".hplip/" ".compiz/" ".gnupg/" ".gvfs/" "android-studio/" "Vídeos/" "Plantillas/" ".ssh/" ".bashrc" ".bashrc~" "examples.desktop" "Scraping/" ".ipython/" "mesa/" "Descargas/" "Android Tutorial/" ".steampath" "Documentos/" ".xsession-errors" ".pip/" "node-v0.12.4/" ".steam/" ".oracle_jre_usage/" "AndroidStudioProjects/" ".dropbox/" ".xsession-errors.old" ".android/" ".AndroidStudio1.4/" ".jupyter/" ".gconf/" "../")
+
+ ("/home/pablo/Escritorio/machine-learning-ex3/ex3/" (22082 61313 90770 938000) "submit.m" "sigmoid.m" "predict.m" "ex3_nn.m" "ex3.m" "predictOneVsAll.m" "ex3data1.mat" "./" "displayData.m" "ex3weights.mat" "octave-workspace" "oneVsAll.m" "lrCostFunction.m" "lib/" "token.mat" "fmincg.m" "../")
+
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 3/machine-learning-ex2/ex2/" (22080 25049 217188 0) "token.mat" "submit.m" "sigmoid.m" "predict.m" "plotDecisionBoundary.m" "plotData.m" "octave-workspace" "mapFeature.m" "lib/" "ex2_reg.m" "ex2data2.txt" "ex2data1.txt" "ex2.m" "costFunctionReg.m" "costFunction.m" "../" "./")
+
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 3/machine-learning-ex2/" (22080 25049 217188 0) "ex2.pdf" "ex2/" "../" "./")
+
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 3/" (22080 25049 148005 500000) "Semana 3.m3u" "machine-learning-ex2/" "3-4-4 Solving the Problem of Overfitting - Regularized Logistic Regression.vtt" "3-4-4 Solving the Problem of Overfitting - Regularized Logistic Regression.mp4" "3-4-3 Solving the Problem of Overfitting - Regularized Linear Regression.vtt" "3-4-3 Solving the Problem of Overfitting - Regularized Linear Regression.mp4" "3-4-2 Solving the Problem of Overfitting - Cost Function.vtt" "3-4-2 Solving the Problem of Overfitting - Cost Function.mp4" "3-4-1 Solving the Problem of Overfitting - The Problem of Overfitting.vtt" "3-4-1 Solving the Problem of Overfitting - The Problem of Overfitting.mp4" "3-3-1 Multiclass Classification - Multiclass Classification: One-vs-all.vtt" "3-3-1 Multiclass Classification - Multiclass Classification: One-vs-all-ES.vtt" "3-2-3 Logistic Regression Model - Advanced Optimization.vtt" "3-2-3 Logistic Regression Model - Advanced Optimization.mp4" "3-2-3 Logistic Regression Model - Advanced Optimization-ES.vtt" "3-2-2 Logistic Regression Model - Simplified Cost Function and Gradient Descent.vtt" "3-2-2 Logistic Regression Model - Simplified Cost Function and Gradient Descent.mp4" "3-2-2 Logistic Regression Model - Simplified Cost Function and Gradient Descent-ES.vtt" "3-2-1 Logistic Regression Model - Cost Function.vtt" "3-2-1 Logistic Regression Model - Cost Function.mp4" "3-1-3 Classification and Representation - Decision Boundary.vtt" "3-1-3 Classification and Representation - Decision Boundary.mp4" "3-1-3 Classification and Representation - Decision Boundary-ES.vtt" "3-1-2 Classification and Representation - Hypothesis Representation.vtt" "3-1-2 Classification and Representation - Hypothesis Representation.mp4" "3-1-2 Classification and Representation - Hypothesis Representation-ES.vtt" "3-1-1 Classification and Representation - Classification.vtt" "3-1-1 Classification and Representation - Classification.mp4" "3-1-1 Classification and Representation - Classification-ES.vtt" "3-3-1 Multiclass Classification - Multiclass Classification: One-vs-all.mp4" "3-2-1 Logistic Regression Model - Cost Function-ES.vtt" "../" "./")
+
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/Semana 4/" (22056 43967 74602 300000) "Semana 4.m3u" "4-3-3 Applications - Multiclass Classification.vtt" "4-3-3 Applications - Multiclass Classification.mp4" "4-3-3 Applications - Multiclass Classification-ES.vtt" "4-3-2 Applications - Examples and Intuitions II.vtt" "4-3-2 Applications - Examples and Intuitions II.mp4" "4-3-2 Applications - Examples and Intuitions II-ES.vtt" "4-3-1 Applications - Examples and Intuitions I.vtt" "4-3-1 Applications - Examples and Intuitions I.mp4" "4-3-1 Applications - Examples and Intuitions I-ES.vtt" "4-2-2 Neural Networks - Model Representation II.vtt" "4-2-2 Neural Networks - Model Representation II.mp4" "4-2-2 Neural Networks - Model Representation II-ES.vtt" "4-2-1 Neural Networks - Model Representation I.vtt" "4-2-1 Neural Networks - Model Representation I.mp4" "4-2-1 Neural Networks - Model Representation I-ES.vtt" "4-1-2 Motivations - Neurons and the Brain.vtt" "4-1-2 Motivations - Neurons and the Brain.mp4" "4-1-2 Motivations - Neurons and the Brain-ES.vtt" "4-1-1 Motivations - Non-linear Hypotheses.vtt" "4-1-1 Motivations - Non-linear Hypotheses.mp4" "4-1-1 Motivations - Non-linear Hypotheses-ES.vtt" "../" "./")
+
+ ("/media/pablo/data/Coursera/(Coursera) Machine Learning/" (22080 24934 387116 200000) "Semana 5/" "Semana 4/" "Semana 3/" "Semana 2/" "Semana 1/" "../" "./")
+
+ ("/media/pablo/data/Coursera/" (22015 29657 162116 500000) "Statistical Mechanics and Algorithms/" "Stanford Classes Quantum Mechanics/" "Introduction to Guitar/" "Cryptography I/" "(Coursera) QM and QC/" "(Coursera) Machine Learning/" "(Coursera) Data Analysis/" "../" "./")
+
+ ("/media/pablo/data/Dropbox/" (22082 11935 330701 600000) "webs.txt~" "webs.txt" "webpages.txt~" "webpages.txt" "UWaterloo/" "USEQIP_2014.zip" "UHIP.pdf" "tvenvivo.txt" "TorresQueiruga.pdf" "Ticket Confirmation.pdf" "Tesis/" "Scraping/" "Respaldo/" "quakes1.pdf" "quakes1.odt" "QF_setup.pyc" "QF_setup.py" "QF.py~" "QF.py" "Py LOOP parallel.txt" "PUCP/" "Public/" "Pre_professional_practice_letter.docx" "practice_book_physics.pdf" "Otros/" "ML coordinacion/" "Material de clase/" "Lab Optica Cuantica/" "Getting Started.pdf" "fp.tex" "doblenueve.m3u" "desktop.ini" "Cartas y documentos/" "bookmarks_firefox_28_12_12.html" "bookmarks_chrome_28_12_12.html" "AMDwebs.txt" ".dropbox.cache/" ".dropbox" "(Thesis) Laforest, M. Error characterization and quantum control benchmarking in liquid state NMR using quantum information processing techniques.pdf" "(Lecture notes) Nazir, Ahsan. Open Quantum Systems.pdf" "OC PUCP/" "../" "./")
+
+ ("/media/pablo/data/" (22082 9812 596123 600000) "Wolfram Research Mathematica 10/" "Windows 7 Professional SP1 64 Bits.iso" "wallpapers/" "Videos/" "USB PABLO 24-04/" "ubuntu-14.04.1-desktop-amd64.iso" "System Volume Information/" "Spotify cache/" "Selected tracks/" "Restore home/" "Restaura drivers/" "PSAutoRecover/" "OxfordCD.iso" "OxfordCD.img" "OxfordCD.ccd" "Otros/" "Musica para clasificar/" "ML coordinacion Backup/" "Matlab installer/" "Mathematica_10.0.0_LINUX.sh" "Fotos/" "edX/" "Ebooks/" "Dropbox/" "Descargas/" "Coursera/" "clave PUCP.txt" "Backup-AMD 24-12-12/" "Back Windows/" "Archivos UNI varios/" "Android Tutorial/" "Android/" "AITEMP/" "1272_2289985_MVM_1.tmp" "1272_2289985_MVM_0.tmp" ".Trash-1000/" "$RECYCLE.BIN/" "MatLab Windows/" "../" "./")
+
+ ("/media/pablo/" (22081 35622 19496 799000) "./" "data/" "Extra/" "windows/" "../")
+
+ ("/media/" (22065 32364 55205 21000) "./" "pablo/" "../")
+
+ ("/home/" (22065 30148 210552 400000) "pablo/" "./" "lost+found/" "../")
+
+ ("/home/pablo/Escritorio/machine-learning-ex3/" (21758 1388 0 0) "./" "ex3/" "ex3.pdf" "../")
+
+ ("/home/pablo/Escritorio/" (22081 17022 387493 429000) "btexample/" "USPdocs~" ".ipynb_checkpoints/" "USPdocs" "Heroes Reborn 1x01 - Brave New World - 1x02 - Odessa (Español (España)).srt" "USP documentos.pdf" "serialetc" "machine-learning-ex3/" "./" "Heroes Reborn 1x01 - Brave New World - 1x02 - Odessa (Español (España)).avi" "gaussi" "bolsa" "articleProphet" "gaussiano.c" "scrap demo.ipynb" "Java examples/" "lab-usb/" "rebasing log2" "rebasing log" "../")
+
+ ("/home/pablo/Escritorio/machine-learning-ex2/ex2/" (22080 21659 17102 534000) "submit.m" "sigmoid.m" "predict.m" "./" "plotDecisionBoundary.m" "mapFeature.m" "octave-workspace" "ex2_reg.m" "ex2data1.txt" ".#ex2.m" ".#costFunctionReg.m" "plotData.m" "lib/" "costFunction.m" "costFunctionReg.m" "token.mat" "ex2.m" "ex2data2.txt" "../")
+
+ ("/home/pablo/Documentos/897cd608dc0610710185/" (22077 42905 298770 644000) "./" "primeros_pasos_con_react.org" ".git/" "../")
+
+ ("/home/pablo/Documentos/" (22077 41269 966770 348000) "Sismo ML-2.png" "draft7.png" "informe Pedro" "680px-Placas_tectonicas_es.svg.png" "pantel-2.png" "profundidad.png" "notiperu.png" "Richter.jpg" "win-fstab" "quakes.md" "quakes/" "USGS.png" "react-pedro.md" "igp.png" "Sismo ML.png" "quakes1.odt" "comparacion.jpg" "EC.png" "pantel.png" "(Paper) Arrazola, J.M; Lutkenhaus, N. Quantum fingerprinting with coherent states and a constant mean number of photons.pdf" "(Paper) Buhrman, Cleve, Watrous, De Wolf. Quantum Fingerprinting.pdf" "(Paper) Feihu Xu. Experimental Quantum Fingerprinting.pdf" "./" "alderaan.jpg" "octave-workspace" "Sismos 1975-2005.png" "usgs chile.png" "IGP - ML.png" "Richterscale2.jpg" "usgs chile2.png" "mapa.png" "notiperu-2.png" "scales.psd" "AngJS/" "scales2.png" "usgsweb.png" "IGP Mb.png" "m-2.png" "react-pedro.org" "IGP Mb-2.png" "medios.png" "scales.png" "1280px-Placas_tectonicas_es.svg.png" "react-pedro.org~" "Backup Yrina/" "article quakes.odt" "../" "897cd608dc0610710185/")
+
+ ("/home/pablo/Escritorio/machine-learning-ex2/" (22065 33233 533933 0) "./" "ex2.pdf" "ex2/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

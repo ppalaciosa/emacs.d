@@ -7,19 +7,22 @@
 ;; (global-set-key (kbd "C-a") 'beginning-of-visual-line)
 ;; (global-set-key (kbd "C-e") 'end-of-visual-line)
 
-;;ñ
-(global-set-key (kbd "<Multi_key> ° n")(kbd "C-x 8 ~ n"))
-(global-set-key (kbd "<Multi_key> ; a") (kbd "á"))
-(global-set-key (kbd "<Multi_key> ; A") (kbd "Á"))
-(global-set-key (kbd "<Multi_key> ; e") (kbd "é"))
-(global-set-key (kbd "<Multi_key> ; E") (kbd "É"))
-(global-set-key (kbd "<Multi_key> ; i") (kbd "í"))
-(global-set-key (kbd "<Multi_key> ; I") (kbd "Í")) 
-(global-set-key (kbd "<Multi_key> ; o") (kbd "ó"))
-(global-set-key (kbd "<Multi_key> ; O") (kbd "Ó"))
-(global-set-key (kbd "<Multi_key> ; u") (kbd "ú"))
-(global-set-key (kbd "<Multi_key> ; U") (kbd "Ú"))
-
+;;Caracteres latinos
+;; NOTA: Debe activarse la tecla componer. <menu> -> <Multi_key>
+(global-set-key (kbd "<Multi_key> ~ n")(kbd "ñ"))
+(global-set-key (kbd "<Multi_key> ~ N") (kbd "Ñ"))
+(global-set-key (kbd "<Multi_key> ' a") (kbd "á"))
+(global-set-key (kbd "<Multi_key> ' A") (kbd "Á"))
+(global-set-key (kbd "<Multi_key> ' e") (kbd "é"))
+(global-set-key (kbd "<Multi_key> ' E") (kbd "É"))
+(global-set-key (kbd "<Multi_key> ' i") (kbd "í"))
+(global-set-key (kbd "<Multi_key> ' I") (kbd "Í")) 
+(global-set-key (kbd "<Multi_key> ' o") (kbd "ó"))
+(global-set-key (kbd "<Multi_key> ' O") (kbd "Ó"))
+(global-set-key (kbd "<Multi_key> ' u") (kbd "ú"))
+(global-set-key (kbd "<Multi_key> ' U") (kbd "Ú"))
+(global-set-key (kbd "<Multi_key> ?") (kbd "¿"))
+(global-set-key (kbd "<Multi_key> !") (kbd "¡"))
 
 ;; helm
 (global-set-key (kbd "C-c o") 'helm-overlord)
